@@ -50,6 +50,6 @@
 
 ## 🔗 Enlaces
 
-- 📄 **Código:** [Google Colab](https://colab.research.google.com/drive/1mS2GpDt6xphcUo5KW5KkmO6feeh04zRc?usp=sharing)  
+- 📄 **Código:** [Google Colab - Notebook](https://colab.research.google.com/drive/1mS2GpDt6xphcUo5KW5KkmO6feeh04zRc?usp=sharing)  
 - 📁 **Repositorio:** [GitHub - DeepWine](https://github.com/JustBeingLuis/DeepWine)  
-- 🎥 **Video:** (pendiente de enlace)
+- 🎥 **Video:** [Youtube - video](https://youtu.be/zKAyHbIncFA)
