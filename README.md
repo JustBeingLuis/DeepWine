@@ -2,54 +2,53 @@
 
 <img src="Banner.png" alt="DeepWine Banner" width="800" height="300">
 
-**Autores:** Luis Mario Toscano Palomino, Daniel Santiago Convers Castellanos, Oscar Carreño Serpa
+**Authors:** Luis Mario Toscano Palomino, Daniel Santiago Convers Castellanos, Oscar Carreño Serpa
 
 ---
 
-**Objetivo:** Clasificar la calidad del vino tinto a partir de variables fisicoquímicas usando modelos de inteligencia artificial.
+**Objective:** Classify the quality of red wine based on physicochemical variables using artificial intelligence models.
 
 ---
 
-## 📊 Información del Dataset
+## 📊 Dataset Information
 
-| Atributo                    | Descripción                                               |
-|----------------------------|-----------------------------------------------------------|
-| **Muestras**               | 1599 registros de vino tinto                             |
-| **Características**        | 11 variables fisicoquímicas numéricas                    |
-| **Target (variable objetivo)** | `quality` (calidad del vino, valor entero de 0 a 10)       |
-| fixed acidity              | Acidez fija (g(tartaric acid)/dm³)                       |
-| volatile acidity           | Acidez volátil (g(acetic acid)/dm³)                      |
-| citric acid                | Ácido cítrico (g/dm³)                                    |
-| residual sugar             | Azúcar residual (g/dm³)                                  |
-| chlorides                  | Cloruros (g(sodium chloride)/dm³)                        |
-| free sulfur dioxide        | Dióxido de azufre libre (mg/dm³)                         |
-| total sulfur dioxide       | Dióxido de azufre total (mg/dm³)                         |
-| density                    | Densidad del vino (g/cm³)                                |
-| pH                         | Medida de acidez o basicidad                             |
-| sulphates                  | Sulfatos (g(potassium sulfate)/dm³)                      |
-| alcohol                    | Contenido alcohólico (% vol)                             |
+| Attribute                  | Description                                               |
+|---------------------------|-----------------------------------------------------------|
+| **Samples**               | 1599 red wine records                                     |
+| **Features**              | 11 numerical physicochemical variables                    |
+| **Target variable**       | `quality` (wine quality, integer value from 0 to 10)      |
+| fixed acidity             | Fixed acidity (g(tartaric acid)/dm³)                      |
+| volatile acidity          | Volatile acidity (g(acetic acid)/dm³)                     |
+| citric acid               | Citric acid (g/dm³)                                       |
+| residual sugar            | Residual sugar (g/dm³)                                    |
+| chlorides                 | Chlorides (g(sodium chloride)/dm³)                        |
+| free sulfur dioxide       | Free sulfur dioxide (mg/dm³)                              |
+| total sulfur dioxide      | Total sulfur dioxide (mg/dm³)                             |
+| density                   | Wine density (g/cm³)                                      |
+| pH                        | Acidity or basicity level                                 |
+| sulphates                 | Sulfates (g(potassium sulfate)/dm³)                       |
+| alcohol                   | Alcohol content (% vol)                                   |
 
-
-**Fuente del dataset:**  
+**Dataset source:**  
 [Red Wine Quality - Kaggle](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009)
 
 ---
 
-## 🤖 Modelos
+## 🤖 Models
 
-**Supervisado:**  
+**Supervised:**  
 - Random Forest  
-- Red DNN  
+- DNN (Deep Neural Network)  
 - Decision Tree
 
-**No supervisado:**  
+**Unsupervised:**  
 - DBSCAN  
 - K-Means
 
 ---
 
-## 🔗 Enlaces
+## 🔗 Links
 
-- 📄 **Código:** [Google Colab - Notebook](https://colab.research.google.com/drive/1mS2GpDt6xphcUo5KW5KkmO6feeh04zRc?usp=sharing)  
-- 📁 **Repositorio:** [GitHub - DeepWine](https://github.com/JustBeingLuis/DeepWine)  
-- 🎥 **Video:** [Youtube - video](https://youtu.be/zKAyHbIncFA)
+- 📄 **Code:** [Google Colab - Notebook](https://colab.research.google.com/drive/1mS2GpDt6xphcUo5KW5KkmO6feeh04zRc?usp=sharing)  
+- 📁 **Repository:** [GitHub - DeepWine](https://github.com/JustBeingLuis/DeepWine)  
+- 🎥 **Video:** [YouTube - video](https://youtu.be/zKAyHbIncFA)
